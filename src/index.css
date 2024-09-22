@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/Vazirmatn-Regular.ttf") format("truetype")
+    url("/fonts/Vazirmatn-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Yekan";
+  src: url("/fonts/YekanBakhFaNum-Regular.ttf") format("truetype")
+}
+
+.vazir {
+  font-family: "Vazir";
+}
+.yekan {
+  font-family: "Yekan";
+}
