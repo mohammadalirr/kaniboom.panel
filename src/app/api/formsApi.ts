@@ -3,8 +3,9 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const formsApi = createApi({
   reducerPath: "forms",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://kaniboom.liara.run/kb-api" + "/forms",
-    // baseUrl: "http://localhost:3000/kb-api" + "/forms",
+    //customenv
+    // baseUrl: "https://kaniboom.liara.run/kb-api" + "/forms",
+    baseUrl: "http://localhost:3000/kb-api" + "/forms",
     credentials: "include",
   }),
   endpoints: (builder) => ({

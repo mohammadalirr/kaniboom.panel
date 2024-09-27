@@ -3,7 +3,9 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const authApi = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://kaniboom.liara.run/kb-api",
+    //customenv
+    // baseUrl: "https://kaniboom.liara.run/kb-api",
+    baseUrl: "http://localhost:3000/kb-api",
     headers: {
       "Content-Type": "application/json",
     },
